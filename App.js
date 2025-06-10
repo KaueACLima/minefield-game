@@ -13,6 +13,8 @@ export default class App extends Component {
                 </Text>
 
                 <Field />
+                <Field opened/>
+                <Field opened nearMines={1} />
             </View>
         )
     }
